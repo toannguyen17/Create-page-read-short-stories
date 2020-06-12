@@ -1,0 +1,109 @@
+
+*, *:after,*:before {
+    box-sizing: border-box;
+}
+
+html, body {
+    background: #f8f8f8;
+    font-family: 'Nunito', Arial;
+    font-size: 15px;
+    color: #353535;
+}
+
+.center {
+    text-align: center;
+}
+a.content {
+    color: #FF5722;
+}
+
+a.link {
+    color: #353535;
+    text-decoration: none;
+}
+
+.shadow_1 {
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.3411764705882353);
+}
+
+.container {
+    margin:    20px auto;
+    max-width: 800px;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.phdr {
+    padding: 12px 17px;
+    font-size: 16px;
+    background: #039BE5;
+    color: #fff;
+}
+
+.list {
+    padding: 10px;
+}
+
+.list + .list{
+    border-top: 0.7px solid #eaeaea;
+}
+
+.sPage {
+    display: inline-block;
+    position: relative;
+    margin: 0 10px;
+}
+
+.sPage:after {
+    content: '';
+    background: #FF5722;
+    width: 1px;
+    height: 25px;
+    position: absolute;
+    transform: rotate(25deg);
+    top: -18px;
+}
+
+.box_items {
+    position: relative;
+    clear: both;
+    float: left;
+}
+
+.item {
+    max-width: 253px;
+    float: left;
+    background: #f5f5f5;
+    border-radius: 6px;
+    padding: 5px;
+    overflow: hidden;
+    margin: 3px;
+    text-decoration: none;
+    color: black;
+    transition: box-shadow .2s;
+}
+
+.item:hover {
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3411764705882353);
+}
+.item img {
+    width: 243px;
+}
+
+.item h3 {
+    text-align: center;
+    margin: 6px 0;
+    font-size: 16px;
+}
+.item .sub {
+    font-size: 13px;
+}
+
+
+img.content {
+    max-width: 500px;
+}
